@@ -4,6 +4,11 @@
 <p align="center">A simple boilerplate parcel project.</p>
 <p align="center">Ready to be deployed with ▲ ZEIT Now!</p>
 
+## Getting Started
+
+1. Either clone this project or click [here](https://github.com/ivoilic/parcel-starter/generate)
+2. Install all the needed packages by running `npm install`
+
 ## Instructions
 
 **Develop** - Starts a dev server on port 1234
