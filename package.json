@@ -1,0 +1,46 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "description": "A simple boilerplate parcel project. (Ready to be deployed with ▲ ZEIT Now!)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "parcel src/index.html --out-dir public",
+    "build": "parcel build src/index.html --out-dir public",
+    "deploy": "now"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivoilic/parcel-starter.git"
+  },
+  "keywords": [
+    "starter",
+    "boilerplate",
+    "zeit",
+    "now",
+    "parcel",
+    "package",
+    "sass"
+  ],
+  "author": "Ivo Ilic <admin@ivoilic.com> (https://ivoilic.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivoilic/parcel-starter/issues"
+  },
+  "homepage": "https://github.com/ivoilic/parcel-starter#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2",
+    "sass": "^1.22.12"
+  }
+}

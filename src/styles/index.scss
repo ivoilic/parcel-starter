@@ -1,0 +1,47 @@
+@import '../../node_modules/normalize.css/normalize.css';
+
+$font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji';
+
+$color-black: #222222;
+$color-white: #ffffff;
+
+body {
+  background: $color-white;
+  color: $color-black;
+  font-family: $font-body;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  h1 {
+    font-size: 4vw;
+    margin: 1vw;
+  }
+
+  img {
+    animation: box-bounce 1s ease-in-out infinite;
+    pointer-events: none;
+  }
+}
+
+@keyframes box-bounce {
+  25% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -20%, 0);
+  }
+  75% {
+    transform: translate3d(0, 0, 0);
+  }
+}
