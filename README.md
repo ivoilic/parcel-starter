@@ -26,6 +26,8 @@ Parcel is a web application bundler, differentiated by its developer experience.
 
 ZEIT Now is a zero config tool for deploying projects. You'll need to sign up for a free account with [ZEIT](https://zeit.co/home). You can also setup your project to deploy on push. parcel-starter is setup so your project won't require additional setup to deploy with ZEIT!
 
+You can check out this parcel-starter deployed here: [parcel-starter.ivoilic.now.sh](https://parcel-starter.ivoilic.now.sh/)
+
 ## What's included?
 
 Besides Parcel this parcel-starter is setup to work with sass. [Normalize.css](https://github.com/necolas/normalize.css) has also been included to improve styling across browsers. This project also includes a prettier + eslint setup which can be customized to suit your needs.
