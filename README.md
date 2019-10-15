@@ -24,7 +24,7 @@ Parcel is a web application bundler, differentiated by its developer experience.
 
 ## What is ZEIT Now?
 
-ZEIT Now is a zero config tool for deploying projects. You'll need to sign up for a free account with [ZEIT](https://zeit.co/home). You can also setup your project to deploy on push. This parcel-starter is setup so your project won't require additional setup to deploy with ZEIT!
+ZEIT Now is a zero config tool for deploying projects. You'll need to sign up for a free account with [ZEIT](https://zeit.co/home). You can also setup your project to deploy on push. parcel-starter is setup so your project won't require additional setup to deploy with ZEIT!
 
 ## What's included?
 
